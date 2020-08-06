@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+@import './utils/all';
+
+@import "./components/header";
+@import "./components/intro";
+@import './components/callToAction';
+@import './components/aboutApp';

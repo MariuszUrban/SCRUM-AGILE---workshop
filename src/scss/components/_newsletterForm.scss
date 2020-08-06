@@ -1,0 +1,39 @@
+@import '../utils/all';
+
+.newsletter {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $sidePanel;
+    color: $screenBackgrounds;
+    font-family: $textFont;
+    
+}
+
+.h-wrap {
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header{
+    text-decoration: none;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-left: 45px;
+}
+
+.news-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    input{
+        height: 47px;
+        width: 300px;
+        outline: none;
+    }
+    button{
+         outline: none;
+    }
+}
+

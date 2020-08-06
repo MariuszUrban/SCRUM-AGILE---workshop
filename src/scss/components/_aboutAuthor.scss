@@ -1,0 +1,37 @@
+@import '../utils/all';
+
+.aboutAuthor{
+    height: 400px;
+    background-color:$tableText-functionIcons;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgWrap{ 
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img {
+    height: 250px; 
+    width: 250px;
+    margin-left: 55px;
+    background-color:$header-columnText;
+}
+
+.descWrap{
+    height: 250px;
+    margin-right: 45px;
+    margin-left: 90px;
+}
+
+.authorNameWrap {
+    margin-bottom: 30px;
+    h3{
+        text-decoration: none;
+        font-weight: 400;
+    }
+}

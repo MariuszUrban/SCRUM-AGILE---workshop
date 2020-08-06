@@ -1,0 +1,41 @@
+@import '../utils/all';
+
+.callToAction{
+    display: flex;
+    background-color: $sidePanel;
+    color: $screenBackgrounds;
+    font-family: $textFont;
+    font-weight: 200;
+    h3 {
+       text-decoration:  none;
+       font-weight: 400;
+       
+    }
+}
+
+.headerWrapper{
+    margin-left: 45px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.paraWrapper{
+    margin-left: 45px ;
+    margin-right: 90px ;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    button{
+         outline: none;
+    }
+}
+
+.h-wrap{
+    margin-bottom: 20px;
+}
