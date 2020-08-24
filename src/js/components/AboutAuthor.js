@@ -4,7 +4,7 @@ import "../../scss/components/_aboutAuthor.scss";
 
 export default function AboutAuthor() {
   return (
-    <section className="aboutAuthor  col-lg ">
+    <section id='aboutAuthor' className="aboutAuthor  col-lg ">
       <div className="imgWrap col-lg-4">
         <div className="img" alt="grey square"></div>
       </div>

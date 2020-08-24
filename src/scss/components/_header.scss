@@ -1,14 +1,55 @@
+
+
 header {
+  
+
   height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color:$header-columnText;
   box-shadow: 0 3px 8px 0 rgba(0,0,0,.2);
   position: relative;
+  padding: 15px 40px;
 
   img {
     width: 200px;
     height: auto;
   }
+  .logo1{
+    color:$logo1
+   
+  }
+  .logo2{
+    color:$logo2
+  }
+ h1 { 
+   font-family: 'Charmonman', cursive;
+ }
+ ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform : uppercase
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: $buttons-screenHeaders-distinctions;
+}
 }

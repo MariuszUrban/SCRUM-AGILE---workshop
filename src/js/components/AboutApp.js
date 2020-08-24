@@ -4,7 +4,8 @@ import "../../scss/components/_aboutApp.scss";
 
 export default function AboutApp() {
   return (
-    <section className="about  col-lg ">
+
+    <div id="aboutApp" className="about  col-lg-12 ">
       <div className="aboout-col-single col-lg-3">
         <div className="icon">
           <svg
@@ -89,6 +90,6 @@ export default function AboutApp() {
           </p></div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

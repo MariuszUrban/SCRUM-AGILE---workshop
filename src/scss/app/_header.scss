@@ -1,0 +1,49 @@
+@import '../utils/all';
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+
+.headerWrap{
+    height: 110px;
+    background-color: $header-columnText;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1{
+  font-family: Charmonman;
+}
+body{
+  background-color: #292F32;
+}
+#first{
+  font-weight:100;
+  color: white;
+}
+#second{
+  color:#E58A20; 
+  font-weight: 700;
+}
+
+.headerLogo{
+    display: inherit;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.headerName{
+    display: inherit;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 45px;
+    span{
+        color: $screenBackgrounds;
+        margin-right: 40px;
+    }
+    
+}
+
+.headerAccountWrap{
+    height: 45px;
+    width: 45px;
+    color: $buttons-screenHeaders-distinctions;
+}

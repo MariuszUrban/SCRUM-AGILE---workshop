@@ -1,7 +1,127 @@
 @import '../utils/all';
 
+.footer{
+    padding: 0;
+}
+.col-lg-12{
+    padding: 0;
+}
+
 .general {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $header-columnText;
+    color: $screenBackgrounds;
+}
+
+.contact {
+    margin-bottom: 25px;
+}
+
+.contactHeadWrap{
+    margin-top: 25px;
+    margin-left: 45px;
+    h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.contactDescWrap p{
+    font-weight: 200;
+    line-height: 1.5;    
+
+}
+
+.client {
+    margin-bottom: 25px;
+}
+
+.clientHeadWrap{
+    margin-top: 25px;
+    h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.clientListWrap{
+    margin-left: 15px;
+    li{
+        font-weight: 200;
+        line-height: 1.5;    }
+}
+
+
+.contactDescWrap{
+    width: 70%;
+}
+
+.mediaHeadWrap {
+    margin-top: 20px;
+    h3{
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.mediaIconsFormWrap {
+    margin-top: 30px;
+}
+
+.mediaFormWrap {
+
+    input{
+        border: none;
+        height: 35px;
+        width: 60%;
+    }
+    button {
+        height: 35px;
+        width: 30%;
+        border: none;
+    }
+}
+
+.mediaIconsWrap{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.mediaIconsFaceWrap {
+    width: 35px; 
+    margin-right: 30px;
+}
+
+.mediaIconsTwitterWrap {
+    width: 35px; 
+    margin-right: 30px;
+
+}
+
+.mediaIconsInstaWrap {
+    width: 35px; 
+}
+
+.copy{
+    background-color: $sidePanel;
+
+}
+
+.copyWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyCopyrights{ 
+    margin: 20px 0 20px 0;
+    color: $screenBackgrounds;
+}
+
+.copyJedzonko{ 
+    color: $buttons-screenHeaders-distinctions;
+    
 }

@@ -1,0 +1,72 @@
+@import "../utils/all";
+
+.controlPanelWrap {
+  display: flex;
+}
+.sidePanelWrap {
+  background-color: $sidePanel;
+  height: calc(100vh - 110px);
+  color: $tableText-functionIcons;
+  width: 30%;
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: $tableText-functionIcons;
+  }  
+}
+
+.sidePanelElement{
+  height: 70px;
+  display: flex;
+  a{
+    display: flex;
+  }
+  .option{
+    margin-top: 30px;
+  }
+  .arrow{
+    display: none;
+  } 
+}
+
+.optionWrap{
+  width: 200px;
+  display: flex;
+}
+
+.arrowWrap{
+  width: 10px;
+  display: flex;
+}
+
+.active{
+  display: flex;
+  border-left: 5px solid $buttons-screenHeaders-distinctions;
+  .option{
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .arrow{
+    margin-top: 30px;
+    font-weight: 700;
+    display: flex;
+    color: $buttons-screenHeaders-distinctions;
+  }
+}
+
+.option{
+  font-weight: 200;
+  margin-left: 45px;
+}
+
+.componentPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: calc(100vh - 110px);
+  width: 100%;
+  background-image: url(https://trello-attachments.s3.amazonaws.com/5f23c43ec31da531e5536fde/5f23c43ec31da531e5537050/500x500/ed2f365e11ad88dd5b526ced225c205a/image.png);
+}

@@ -1,28 +1,25 @@
 import React from "react";
-import CallToAction from './components/CallToAction';
-import AboutApp from './components/AboutApp';
-import NewsletterForm from './components/NewsletterForm';
-import AboutAuthor from './components/AboutAuthor';
-import Footer from './components/Footer'
+import MainApp from '../js/app/MainApp';
+import {
+  HashRouter,
+  Route,
+  Switch, 
+} from 'react-router-dom'
 
-const App = () => {
-  return (
-    <>
-      <header>
-        <img src="https://coderslab.pl/img/coderslab-logo.png" className="logoImage" alt="logo"/>
-      </header>
-      <section className="intro">
-        <p>
-          Scrum Lab React
-        </p>
-      </section>
-      <CallToAction />
-      <AboutApp />
-      <NewsletterForm />
-      <AboutAuthor />
-      <Footer />
-    </>
-  );
-};
+import Main from "./components/Main";
+
+
+function App(){ 
+    return (
+      <HashRouter>
+        <Switch>
+          <Route  exact path="/" component={Main}/>
+          <Route path='/mainApp/' component={MainApp} />
+        </Switch>  
+      </HashRouter>
+    );
+
+  }
+
 
 export default App;

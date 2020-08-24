@@ -13,3 +13,12 @@
     color: #fff;
   }
 }
+
+.mainApp {
+    height: calc(100vh - 70px);
+    width: 100vw;
+    display: block;
+    justify-content: center;
+    background-image: url('https://trello-attachments.s3.amazonaws.com/5f23c43ec31da531e5536fde/5f23c43ec31da531e5537050/500x500/ed2f365e11ad88dd5b526ced225c205a/image.png');
+    position: relative;
+  }

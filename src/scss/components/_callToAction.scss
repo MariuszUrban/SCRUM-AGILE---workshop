@@ -31,11 +31,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 45px;
     button{
          outline: none;
     }
 }
-
+.newsletter-from{
+    padding-right: 45px;
+}
 .h-wrap{
     margin-bottom: 20px;
 }

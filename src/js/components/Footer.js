@@ -4,7 +4,7 @@ import "../../scss/components/_footer.scss";
 
 export default function Footer() {
   return (
-    <section className="footer col-lg-12">
+    <section id='footer' className="footer col-lg-12">
       <div className="general col-lg-12">
         <div className="contact col-lg-4">
           <div className="contactHeadWrap">
@@ -13,7 +13,7 @@ export default function Footer() {
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
                 quidem rem quos, repellendus quia laborum tempora dolores in
-                impedit reiciendis{" "}
+                impedit reiciendis, super mario!
               </p>
             </div>
           </div>
@@ -37,10 +37,12 @@ export default function Footer() {
           <div className="mediaHeadWrap">
             <h3> Lorem, ipsum dolor.</h3>
           </div>
-          <div className="mediaListWrap">
+          
+          <div className='mediaIconsFormWrap'>
+          <div className="mediaFormWrap">
             <form action="">
               <input type="text" />
-              <button>Lorem</button>
+              <button className='btn'>Lorem</button>
             </form>
           </div>
           <div className="mediaIconsWrap">
@@ -69,9 +71,16 @@ export default function Footer() {
               </svg>
             </div>
           </div>
+          </div>
+          
         </div>
       </div>
-      <div className="copyrights col-lg-12"></div>
+      <div className="copy col-lg-12">
+        <div className='copyWrap'>
+          <div className='copyCopyrights'><p>Copyright</p></div>
+          <div className='copyJedzonko'><p href="#">ZaplanujJedzonko.pl</p></div>
+        </div>
+      </div>
     </section>
   );
 }
